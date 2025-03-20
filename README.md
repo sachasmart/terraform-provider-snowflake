@@ -1,4 +1,4 @@
-# Snowflake Terraform Provider (Fork)
+# Snowflake Terraform Provider (Test Fork)
 
 > ⚠️ **Please note**: If you believe you have found a security issue, _please responsibly disclose_ by contacting us at [triage-terraformprovider-dl@snowflake.com](mailto:triage-terraformprovider-dl@snowflake.com).
 
@@ -14,7 +14,7 @@ This is a terraform provider for managing [Snowflake](https://www.snowflake.com/
 
 ## Table of contents
 <!-- TOC -->
-- [Snowflake Terraform Provider (Fork)](#snowflake-terraform-provider-fork)
+- [Snowflake Terraform Provider (Test Fork)](#snowflake-terraform-provider-test-fork)
   - [Table of contents](#table-of-contents)
   - [Getting started](#getting-started)
   - [Migration guide](#migration-guide)
