@@ -9,6 +9,12 @@ name: release
 jobs:
   release-please:
     runs-on: macos-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
+      packages: write
+
     steps:
       - uses: actions/github-script@v6
         id: configure-changelog
