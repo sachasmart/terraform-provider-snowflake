@@ -27,8 +27,8 @@ jobs:
         id: create-token
         uses: actions/create-github-app-token@v1
         with:
-          app-id: ${{ secrets.APP_ID }}
-          private-key: ${{ secrets.CZI_RELEASE_PLEASE_PK }}
+          app-id: test
+          private-key: ${{ secrets.PRIVATE_KEY }}
 
       - name: Import GPG key
         id: import_gpg
