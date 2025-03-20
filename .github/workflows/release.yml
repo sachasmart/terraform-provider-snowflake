@@ -27,7 +27,7 @@ jobs:
         id: create-token
         uses: actions/create-github-app-token@v1
         with:
-          app-id: test
+          app-id: snowflake-infra-fork
           private-key: ${{ secrets.PRIVATE_KEY }}
 
       - name: Import GPG key
